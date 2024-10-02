@@ -21,3 +21,22 @@ const myFunction=function()
 {
     console.log("hello world");
 }
+// Stack memory(primitive) and Heap Memory(non primitive)
+let myYoutubename="amankumarraj"
+let anothername=myYoutubename
+anothername="chaiorcode"
+console.log(myYoutubename);
+
+console.log(anothername);
+let user= {
+    email:"amanr2661@gmail.com",
+    upi:"user@ybl"
+
+}
+let userTwo=user
+userTwo.email="amanr26195@com"
+console.log(user);
+console.log(userTwo);
+
+
+ 
